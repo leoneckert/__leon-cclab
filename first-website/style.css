@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(148, 240, 205);
+}
+/* styles for p tags */
+p {
+    color: red;
+} 
+
+h3 {
+    font-size: 20px;
+}
+
+li {
+    color: rgb(194, 21, 203);
+    font-weight: bold;
+}
+
+ol{
+    background-color: rgb(61, 90, 255);
+}
+
+img{
+    width: 310px;  
+}
+
+.sichuan {
+    color: white;
+}
+
+.yunnan {
+    color: rgb(0, 140, 255);
+}
+
+.guizhou{
+    background-color: greenyellow;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.cool{
+    text-shadow: 10px -7px 2px #a84141;
+}
+
+
