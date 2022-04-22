@@ -1,0 +1,133 @@
+.large-wrapper{
+  width:100%;
+  max-width: 1000px;
+  margin:auto;
+  outline: 3px dashed rgb(35, 170, 253);
+}
+.header-wrapper{
+  height: 60px;
+  background-color: rgb(169, 246, 187);
+  margin-bottom: 50px;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+
+.main-wrapper{
+  background-color: lightgrey;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+
+
+.left-bottom-wrapper{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* outline: 1px white solid; */
+}
+
+@media only screen and (max-width: 600px) {
+  .header-wrapper{
+    position: inherit;
+  }
+  .main-wrapper{
+    flex-direction: column-reverse;
+  }
+  .left-bottom-wrapper{
+    width: 100%;
+  }
+}
+
+
+.right-top-wrapper{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* outline: 1px white solid; */
+}
+
+@media only screen and (max-width: 600px) {
+  .right-top-wrapper{
+    position: sticky;
+    top:0px;
+    /* flex-direction: column-reverse; */
+  }
+}
+
+
+.text-box-wrapper p{
+  margin:0;
+}
+.left-bottom-wrapper .text-box-wrapper{
+  height: 400px;
+  
+}
+.left-bottom-wrapper div{
+  background-color: rgb(64, 157, 187);
+}
+.left-bottom-wrapper div:first-child{
+  background-color: rgb(163, 182, 224);
+}
+.left-bottom-wrapper div:last-child{
+  background-color: rgb(163, 182, 224);
+}
+
+.extra-text-wrapper{
+  display: flex; 
+  gap: 20px;
+}
+.extra-text-wrapper div{
+  width:50%;
+  height:150px;
+  background-color: rgb(246, 244, 169);
+}
+
+
+
+.canvas-section-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top:110px;
+}
+
+@media only screen and (max-width: 600px) {
+  .extra-text-wrapper{
+    display: none; 
+  }
+  .canvas-section-wrapper{
+    position:inherit;
+  }
+}
+
+
+.canvas-container{
+  width:100%;
+  height:500px;
+  background-color: rgb(240, 148, 168);
+}
+.invsible-buffer{
+  width:100%;
+  height:500px;
+  background-color: rgb(204, 225, 210);
+}
+
+@media only screen and (max-width: 600px) {
+  .invsible-buffer{
+    display: none;;
+  }
+}
+
+
+
+.fin-wrapper{
+  height: 120px;
+  background-color: rgb(169, 246, 187);
+}

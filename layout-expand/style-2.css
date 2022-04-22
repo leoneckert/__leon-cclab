@@ -1,0 +1,36 @@
+.large-wrapper{
+  width:100%;
+  max-width: 1000px;
+  margin:auto;
+  outline: 3px dashed rgb(35, 170, 253);
+}
+.header-wrapper{
+  height: 30px;
+  background-color: rgb(169, 246, 187);
+}
+.content-wrapper{
+  background-color: lightgrey;
+}
+
+.main-wrapper{
+  display: flex;
+}
+.left-bottom-wrapper{
+  width: 33%;
+  outline: 1px white solid;
+}
+.right-top-wrapper{
+  flex-grow: 1;
+  outline: 1px white solid;
+}
+
+
+
+
+
+
+
+.fin-wrapper{
+  height: 30px;
+  background-color: rgb(169, 246, 187);
+}
